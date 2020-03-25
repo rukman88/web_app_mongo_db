@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Repo for Zell's CRUD, Express and MongoDB tutorial
 
 - [Demo](https://crud-express-mongo.herokuapp.com)
@@ -13,3 +14,6 @@
 1. run `npm run dev`
 2. Navigate to `localhost:3000`
 3. Have fun ;)
+=======
+# web_app_mongo_db
+>>>>>>> 5bdd43e7dda282c682fb4146a14e532763f456e9
