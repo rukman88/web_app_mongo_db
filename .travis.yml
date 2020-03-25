@@ -1,6 +1,7 @@
 language: node_js
-cache: 
-npm: false
+node_js: 
+-   - "11.0"
++   - "13"
 
 
 
