@@ -7,14 +7,14 @@ node_js:
 install:
   - npm install
 
-matrix:
-  fast_finish: true
+#matrix:
+ # fast_finish: true
 
 cache:
   directories:
     - node_modules
 
-git:
-  depth: 1
+#git:
+ # depth: 1
 
-script: true
+script: 'true'
