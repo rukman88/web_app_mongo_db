@@ -1,10 +1,20 @@
-language: node_js
-node_js: 
--   - "11.0"
-+   - "13"
-deploy: 
-  provider: heroku
-  api_key:
-  secure:
-c4d6d2cb-d33a-4586-a2dc-16563a3afad4
+language: node
 
+node_js:
+  - 'node'
+  - 12
+
+install:
+  - npm install
+
+#matrix:
+ # fast_finish: true
+
+cache:
+  directories:
+    - node_modules
+
+#git:
+ # depth: 1
+
+#script: 'true'
