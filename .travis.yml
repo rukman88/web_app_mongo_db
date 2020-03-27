@@ -1,8 +1,8 @@
 language: node
 
-node_js:
-  - 'node'
-  - 12
+#node_js:
+ # - 'node'
+  #- 12
 
 install:
   - npm install
@@ -17,4 +17,4 @@ cache:
 #git:
  # depth: 1
 
-script: 'true'
+#script: 'true'
