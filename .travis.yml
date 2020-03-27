@@ -17,4 +17,4 @@ cache:
 #git:
  # depth: 1
 
-#script: 'true'
+script: 'true'
