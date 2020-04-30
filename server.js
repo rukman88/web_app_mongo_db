@@ -9,11 +9,10 @@ var db
 MongoClient.connect('mongodb+srv://ruk:password12%23@cluster0-gl6ew.mongodb.net/test', (err, database) => {
   if (err) return console.log(err)
   db = database.db('star-wars-quotes')
-  let process;
   app.listen(process.env.PORT || 3000, () => {
     console.log('listening on 3000')
   })
-}).then(r => console.log("MongoDB Connected"));
+})
 
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended: true}))

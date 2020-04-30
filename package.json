@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
-
   },
   "author": "",
   "license": "ISC",
@@ -33,5 +32,6 @@
     "url": "https://github.com/rukman88/web_app_mongo_db/issues"
   },
   "homepage": "https://github.com/rukman88/web_app_mongo_db#readme",
+  "keywords": [],
   "description": ""
 }
